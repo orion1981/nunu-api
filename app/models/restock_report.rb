@@ -1,0 +1,2 @@
+class RestockReport < ApplicationRecord
+end
