@@ -1,3 +1,3 @@
 class Location < ApplicationRecord
-  belongs_to :restock_reports
+  has_many :restock_reports
 end
