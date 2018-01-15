@@ -13,5 +13,67 @@ atlantic_ave = Location.create(
 4_pc_salt_caramel = Product.create(
   product_name: "4 pc Salt Caramels",
   location_id: 1,
-  number_of_pieces: 4,
+  number_of_pieces: 4
+)
+
+4_pc_assortment = Product.Create(
+  product_name: "4 pc Assortment",
+  location_id: 1,
+  number_of_pieces: 4
+)
+
+salt_caramel = Piece.create(
+  name: "Salt Caramel"
+)
+
+soft_caramel_butterfly = Piece.create(
+  name: "Soft Caramel Butterfly"
+)
+
+earl_grey_ganache = Piece.create(
+  name: "Earl Grey Ganache"
+)
+
+double_dark_ganache = Piece.create(
+  name: "Double Dark Ganache"
+)
+
+4_sc_p_1 = Product_content.create(
+  product_id: 1,
+  piece_id: 1,
+)
+
+4_sc_p_2 = Product_content.create(
+  product_id: 1,
+  piece_id: 1,
+)
+
+4_sc_p_3 = Product_content.create(
+  product_id: 1,
+  piece_id: 1,
+)
+
+4_sc_p_4 = Product_content.create(
+  product_id: 1,
+  piece_id: 1,
+)
+
+4_ass_p_1 = Product_content.create(
+  product_id: 2,
+  piece_id: 1,
+)
+
+4_ass_p_2 = Product_content.create(
+  product_id: 2,
+  piece_id: 2,
+)
+
+4_ass_p_3 = Product_content.create(
+  product_id: 2,
+  piece_id: 3,
+)
+
+4_ass_p_4 = Product_content.create(
+  product_id: 2,
+  piece_id: 4,
 )
