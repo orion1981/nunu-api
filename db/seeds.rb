@@ -10,13 +10,13 @@ atlantic_ave = Location.create(
   place: "Atlantic Ave"
 )
 
-4pc_salt_caramel = Product.create(
+four_pc_salt_caramel = Product.create(
   product_name: "4 pc Salt Caramels",
   location_id: 1,
   number_of_pieces: 4
 )
 
-4pc_assortment = Product.Create(
+four_pc_assortment = Product.create(
   product_name: "4 pc Assortment",
   location_id: 1,
   number_of_pieces: 4
@@ -38,42 +38,42 @@ double_dark_ganache = Piece.create(
   name: "Double Dark Ganache"
 )
 
-4_sc_p_1 = Product_content.create(
+four_sc_p_one = Product_content.create(
   product_id: 1,
   piece_id: 1,
 )
 
-4_sc_p_2 = Product_content.create(
+four_sc_p_two = Product_content.create(
   product_id: 1,
   piece_id: 1,
 )
 
-4_sc_p_3 = Product_content.create(
+four_sc_p_three = Product_content.create(
   product_id: 1,
   piece_id: 1,
 )
 
-4_sc_p_4 = Product_content.create(
+four_sc_p_four = Product_content.create(
   product_id: 1,
   piece_id: 1,
 )
 
-4_ass_p_1 = Product_content.create(
+four_ass_p_one = Product_content.create(
   product_id: 2,
   piece_id: 1,
 )
 
-4_ass_p_2 = Product_content.create(
+four_ass_p_two = Product_content.create(
   product_id: 2,
   piece_id: 2,
 )
 
-4_ass_p_3 = Product_content.create(
+four_ass_p_three = Product_content.create(
   product_id: 2,
   piece_id: 3,
 )
 
-4_ass_p_4 = Product_content.create(
+four_ass_p_four = Product_content.create(
   product_id: 2,
   piece_id: 1,
 )
