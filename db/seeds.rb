@@ -10,13 +10,13 @@ atlantic_ave = Location.create(
   place: "Atlantic Ave"
 )
 
-4_pc_salt_caramel = Product.create(
+4pc_salt_caramel = Product.create(
   product_name: "4 pc Salt Caramels",
   location_id: 1,
   number_of_pieces: 4
 )
 
-4_pc_assortment = Product.Create(
+4pc_assortment = Product.Create(
   product_name: "4 pc Assortment",
   location_id: 1,
   number_of_pieces: 4
@@ -75,5 +75,5 @@ double_dark_ganache = Piece.create(
 
 4_ass_p_4 = Product_content.create(
   product_id: 2,
-  piece_id: 4,
+  piece_id: 1,
 )
