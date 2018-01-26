@@ -1,7 +1,7 @@
 class Api::V1::ProductContentsController < ApplicationController
 
   def index
-    @product_contents = Product_content.all
+    @product_contents = ProductContent.all
     render json: @product_contents
   end
 
