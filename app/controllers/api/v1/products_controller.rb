@@ -1,16 +1,17 @@
 class Api::V1::ProductsController < ApplicationController
 
   def index
-    @Products = Product.all
-    render json: @Products
+    @products = Product.all
+    render json: @products
   end
 
   def create
-    @Product = Product.create(Product_params)
+    @product = Product.create(Product_params)
     params['pieces'].each do |piece|
 
       ProductContent.create(piece_id: piece['piece_id'], product_id: @product['id'])
-    render json: @Product
+    end
+    render json: @product, include: [:pieces]
   end
 
   private
